@@ -3,7 +3,7 @@ import openai
 
 # Set up OpenAI API
 
-openai.api_key = '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'
+openai.api_key = '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'
 # Define text-to-text generation function using OpenAI API
 def generate_text(prompt):
     response = openai.Completion.create(
